@@ -13,20 +13,19 @@
     <!--NavBar-->
     <nav class="navbar navbar-expand bg-dark">
         <ul class="nav">
-            < <li>
+            <li>
                 <a href="<?= base_url('beranda') ?>" class="nav-link">Home</a>
-                </li>
+            </li>
 
-                <li>
-                    <a href="<?= base_url('data-siswa') ?>" class="nav-link">Data Siswa</a>
-                </li>
+            <li>
+                <a href="<?= base_url('login') ?>" class="nav-link">Data Siswa</a>
+            </li>
 
-                <li>
-                    <a href="<?= base_url('info-kegiatan') ?>" class="nav-link">Info Kegiatan</a>
-                </li>
+            <li>
+                <a href="<?= base_url('info-kegiatan') ?>" class="nav-link">Info Kegiatan</a>
+            </li>
 
         </ul>
-
         <!--tombol login dan register-->
         <ul class="navbar-nav ml-auto">
             <li class="nav-link">
@@ -41,7 +40,7 @@
     <?= $this->renderSection("content") ?>
     <footer class="fixed-bottom bg-dark text-white">
         <div class="text-center">
-            SITEM INFORMASI SMAN 79 JAKARTA
+            #### SITEM INFORMASI SISWANYA CAMP404 ####
         </div>
     </footer>
 

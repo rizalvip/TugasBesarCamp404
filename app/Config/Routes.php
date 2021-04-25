@@ -22,6 +22,7 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
+$routes->resource('siswa');
 
 /*
  * --------------------------------------------------------------------
@@ -58,10 +59,10 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 $routes->get('/', 'Home::index');
 $routes->get('/beranda', 'MenuController::home');
 $routes->get('/info-kegiatan', 'MenuController::infoKegiatan');
-$routes->get('/data-siswa', 'MenuController::dataSiswa');
+$routes->get('/siswa', 'MenuController::dataSiswa');
 
 $routes->get('/registrasi', 'AuthController::registrasi');
 $routes->post('/registrasi/simpan', 'AuthController::simpanRegistrasi');
 $routes->get('/login', 'AuthController::login');
-$routes->post('/login/proses', 'AuthController::loginProses');
+$routes->post('/login/proses', 'AuthController::prosesLogin');
 $routes->get('logout', 'AuthController::logout');

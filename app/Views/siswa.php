@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <?= $this->extend("layouts/template"); ?>
-    <?= $this->section("content"); ?>
+    <?= $this->extend("layouts/temp2"); ?>
+    <?= $this->section("keluar"); ?>
     <h3>Data Siswa SMAN 79 Jakarta</h3>
     <table class="table-bordered table-striped">
         <tr>
