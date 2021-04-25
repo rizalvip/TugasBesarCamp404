@@ -28,12 +28,12 @@
         </ul>
     </nav>
     <h3> Informasi Kegiatan Sekolah </h3>
-    <p>** Informasi Kegiatan Siswa/wi bulan April 2021 </p>
+    <p>** Informasi Kegiatan Siswa bulan April 2021 </p>
     <ul>
         <li>24 April 2021 : Masa Orientasi Siswa Camp404, Wajib mengikuti</li>
         <li>25 April 2021 : Presentasi dan Ujian Online FrameWork Ci4</li>
     </ul>
-    <p>** Informasi Kegiatan Siswa/wi bulan Mei 2021 </p>
+    <p>** Informasi Kegiatan Siswa bulan Mei 2021 </p>
     <ul>
         <li>15 Mei 2021 : Seminar Wajib " Tingkatkan Kualitas Siswa Camp404 "</li>
         <li>20 Mei 2021 : Ujian Tengah Semester</li>

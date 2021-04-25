@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <?= $this->extend("layouts/template"); ?>
-    <?= $this->section("content"); ?>
+    <?= $this->extend("layouts/temp2"); ?>
+    <?= $this->section("keluar"); ?>
     <div class="container d-flex justift-content-center">
         <div class="card my-3 w-50">
             <div class="card header">
@@ -28,6 +28,12 @@
                 <div class="row ml-2">
                     <h4 class="col-4"> Email</h4>
                     <h4> : <?= $siswa['email']; ?> </h4>
+                    <br>
+                    <div class="row ml-2">
+
+                        <a href="<?= base_url('siswa') ?>" class="btn btn-primary" class="nav-link">Kembali</a>
+
+                    </div>
                 </div>
             </div>
         </div>

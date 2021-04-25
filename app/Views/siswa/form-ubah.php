@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <?= $this->extend("layouts/template"); ?>
-    <?= $this->section("content"); ?>
+    <?= $this->extend("layouts/temp2"); ?>
+    <?= $this->section("keluar"); ?>
     <div class="container my-3 w-50">
         <div class="card">
             <div class="card header">
